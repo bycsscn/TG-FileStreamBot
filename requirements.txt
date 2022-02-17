@@ -2,3 +2,6 @@ aiohttp
 pyrogram
 python-dotenv
 tgcrypto
+python-dotenv
+aiohttp
+pyrogram
