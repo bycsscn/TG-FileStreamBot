@@ -80,6 +80,7 @@ pip install -r requirements.txt
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 python3 -m WebStreamer
+nohup python3 -m WebStreamer >/dev/null 2>&1 & 
 ```
 
 and to stop the whole bot,
