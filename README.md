@@ -76,6 +76,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 ```sh
 git clone https://github.com/EverythingSuckz/TG-FileStreamBot
 cd TG-FileStreamBot
+apt install python3-virtualenv
 pip install -r requirements.txt
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
