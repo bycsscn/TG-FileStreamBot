@@ -80,6 +80,8 @@ apt install python3-virtualenv
 pip install -r requirements.txt
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
+pip install python-dotenv
+pip3 install pyrogram aiohttp
 python3 -m WebStreamer
 nohup python3 -m WebStreamer >/dev/null 2>&1 & 
 ```
